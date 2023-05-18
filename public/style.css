@@ -1,0 +1,66 @@
+.container {
+  width: 500px;
+  margin: 10px;
+  padding: 20px;
+}
+.black {
+  width: 500px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ccc;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  margin: 20px;
+}
+form {
+  position: relative;
+}
+.input_search {
+  width: 100%;
+  padding: 5px 0;
+}
+.fa-magnifying-glass {
+  position: absolute;
+  top: 7px;
+  right: 5px;
+}
+.container_content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content {
+  padding-bottom: 20px;
+  width: 230px;
+  height: 100%;
+  background-color: #bfeabf;
+  border-radius: 20px;
+}
+
+.content .text p {
+  padding: 20px;
+}
+.day-date {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.add {
+  background-color: #c1e2dd;
+}
+.content textarea {
+  margin: 20px;
+  outline: none;
+  background-color: #c1e2dd;
+  border: none;
+}
+i:hover {
+  cursor: pointer;
+  color: red;
+}
